@@ -164,7 +164,7 @@ header a {
 /*What We Do Style End*/
 
 /*What You Do Style Start*/
-.step{
+.step {
   background: #fce138;
 }
 
@@ -179,9 +179,29 @@ header a {
   justify-content: space-between;
 }
 
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .step h3 {
   color: #024e76;
   font-size: 46px;
+  flex: 1 30%;
+}
+
+.step-text {
+  flex:12;
 }
 
 .step-text p {
@@ -213,9 +233,6 @@ header a {
 
 .secondary-border {
   border-color: #39a6b2;
-}
-
-.trainers {
 }
 
 .trainer {
